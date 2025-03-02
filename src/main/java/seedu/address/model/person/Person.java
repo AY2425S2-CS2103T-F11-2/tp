@@ -119,14 +119,20 @@ public class Person {
 
     @Override
     public String toString() {
-        return new ToStringBuilder(this)
+        ToStringBuilder builder = new ToStringBuilder(this)
                 .add("name", name)
                 .add("phone", phone)
                 .add("email", email)
-                .add("address", address)
-                .add("remark", remark) // Ensure remark is included in toString()
-                .add("tags", tags)
-                .toString();
+                .add("address", address);
+
+        // Only include remark if it's not empty
+        if (remark != null && !remark.value.isEmpty()) {
+            builder.add("remark", remark);
+        }
+
+        builder.add("tags", tags);
+
+        return builder.toString();
     }
 
 }
