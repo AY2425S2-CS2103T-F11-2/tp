@@ -13,7 +13,14 @@ import seedu.address.model.Model;
 import seedu.address.model.person.Person;
 import seedu.address.model.person.Remark;
 
-
+/**
+ * Represents a command to edit the remark of an existing person in the address book.
+ * A remark is an optional note attached to a person.
+ * The remark command takes an index (which refers to the position of the person in the
+ * last displayed list) and an optional remark string. If an empty remark is given,
+ * it removes the existing remark.
+ * Usage example:
+ */
 public class RemarkCommand extends Command {
     public static final String COMMAND_WORD = "remark";
     public static final String MESSAGE_USAGE = COMMAND_WORD + ": Edits the remark of the person identified "
