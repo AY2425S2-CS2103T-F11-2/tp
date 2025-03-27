@@ -108,6 +108,7 @@
       "title": "User Guide",
       "headings": {
         "vitabook-user-guide": "VitaBook User Guide",
+        "key-features": "Key Features",
         "quick-start": "Quick start",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
@@ -115,6 +116,7 @@
         "listing-all-patients-list": "Listing all patients : list",
         "editing-a-patient-edit": "Editing a patient : edit",
         "add-a-remark-to-a-patient-remark": "Add a remark to a patient: remark",
+        "changing-a-patient-s-priority-pr": "Changing a patient's priority: pr",
         "locating-patients-by-name-find": "Locating patients by name: find",
         "filtering-patients-filter": "Filtering patients: filter",
         "sorting-patients-sort": "Sorting patients: sort",
@@ -129,7 +131,10 @@
         "q-can-i-import-data-from-another-app-or-csv-file-a-not-yet-but-you-can-manually-edit-the-json-file-data-addressbook-json-to-add-patients-if-you-re-comfortable-with-the-format": "Q: Can I import data from another app or CSV file?\nA: Not yet — but you can manually edit the JSON file (data/addressbook.json) to add patients if you're comfortable\nwith the format.",
         "known-issues": "Known issues",
         "command-summary": "Command Summary",
-        "glossary": "Glossary"
+        "glossary": "Glossary",
+        "java-setup-instructions": "Java Setup Instructions",
+        "check-your-java-version": "Check your Java version",
+        "install-java-17": "Install Java 17"
       },
       "headingKeywords": {}
     },
