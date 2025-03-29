@@ -62,7 +62,15 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-person": "Deleting a person",
+        "adding-a-patient": "Adding a patient",
+        "editing-a-patient": "Editing a patient",
+        "adding-updating-a-remark": "Adding/Updating a Remark",
+        "change-priority": "Change Priority",
+        "find-by-name": "Find by name",
+        "filter-patients": "Filter patients",
+        "sort-patients": "Sort patients",
+        "deleting-a-patient": "Deleting a patient",
+        "clear-all-patients": "Clear all patients",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
