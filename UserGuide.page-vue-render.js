@@ -251,13 +251,13 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('h2',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Java 17")]),_c('br'),_v("\nThe 17th version of the Java programming language and runtime environment.\nJava 17 provides the libraries and tools necessary to run Java applications—such as VitaBook.")])}
+with(this){return _c('p',[_c('strong',[_v("Java 17")]),_v("\nThe 17th version of the Java programming language and runtime environment.\nJava 17 provides the libraries and tools necessary to run Java applications—such as VitaBook.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("JDK (Java Development Kit)")]),_c('br'),_v("\nA complete software development package that includes the Java runtime, compilers, and various tools to develop and run Java applications. Vitabook requires JDK 17 or later. Make sure you install the correct version to ensure compatibility.")])}
+with(this){return _c('p',[_c('strong',[_v("JDK (Java Development Kit)")]),_v("\nA complete software development package that includes the Java runtime, compilers, and various tools to develop and run Java applications. Vitabook requires JDK 17 or later. Make sure you install the correct version to ensure compatibility.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Terminal / Command Line Interface (CLI)")]),_c('br'),_v("\nA text-based interface used to interact with your computer’s operating system. In the terminal, you can navigate between folders and execute commands. To run Vitabook, open your terminal (or Command Prompt/PowerShell on Windows), use the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("cd")]),_v(" command to navigate to the folder containing the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("vitabook.jar")]),_v(" file, and then type:")])}
+with(this){return _c('p',[_c('strong',[_v("Terminal / Command Line Interface (CLI)")]),_v("\nA text-based interface used to interact with your computer’s operating system. In the terminal, you can navigate between folders and execute commands. To run Vitabook, open your terminal (or Command Prompt/PowerShell on Windows), use the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("cd")]),_v(" command to navigate to the folder containing the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("vitabook.jar")]),_v(" file, and then type:")])}
 },function anonymous(
 ) {
 with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs bash"}},[_c('span',[_v("java -jar vitabook.jar\n")])])])}
@@ -287,6 +287,6 @@ with(this){return _c('p',[_c('a',{attrs:{"href":"https://se-education.org/guides
 with(this){return _c('p',[_c('a',{attrs:{"href":"#vitabook-user-guide"}},[_v("↑ Back to Top")]),_c('br'),_v(" "),_c('a',{attrs:{"href":"#quick-start"}},[_v("↑ Go to Quick Start")]),_c('br')])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 31 Mar 2025, 9:22:01 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 31 Mar 2025, 19:29:57 GMT+8]")])])])}
 }];
   
