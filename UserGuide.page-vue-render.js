@@ -287,6 +287,6 @@ with(this){return _c('p',[_c('a',{attrs:{"href":"https://se-education.org/guides
 with(this){return _c('p',[_c('a',{attrs:{"href":"#vitabook-user-guide"}},[_v("↑ Back to Top")]),_c('br'),_v(" "),_c('a',{attrs:{"href":"#quick-start"}},[_v("↑ Go to Quick Start")]),_c('br')])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 1 Apr 2025, 12:31:30 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 1 Apr 2025, 13:37:10 GMT+8]")])])])}
 }];
   
