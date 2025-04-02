@@ -127,7 +127,7 @@
         "adding-a-patient-add": "Adding a patient: add",
         "listing-all-patients-list": "Listing all patients : list",
         "editing-a-patient-edit": "Editing a patient : edit",
-        "changing-a-patient-s-priority-pr": "Changing a patient's priority: pr",
+        "changing-a-patient-s-priority-priority": "Changing a patient's priority: priority",
         "adding-a-remark-to-a-patient-remark": "Adding a remark to a patient: remark",
         "locating-patients-by-name-find": "Locating patients by name: find",
         "filtering-patients-filter": "Filtering patients: filter",
