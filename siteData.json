@@ -41,7 +41,6 @@
       "title": "Developer Guide",
       "headings": {
         "vitabook-developer-guide": "VitaBook Developer Guide",
-        "about-us": "About Us",
         "table-of-contents": "Table of Contents",
         "acknowledgements": "Acknowledgements",
         "java-dependencies": "Java Dependencies",
@@ -83,7 +82,6 @@
         "product-scope": "Product scope",
         "user-stories": "User stories",
         "use-cases": "Use cases",
-        "non-functional-requirements": "Non-Functional Requirements",
         "non-functional-requirements-nfrs": "Non-Functional Requirements (NFRs)",
         "1-performance": "1. Performance",
         "2-usability": "2. Usability",
