@@ -278,7 +278,7 @@ with(this){return _c('ul',[_c('li',[_v("Example Usage:\n"),_c('code',{pre:true,a
 with(this){return _c('h4',{attrs:{"id":"developer-notes"}},[_v("Developer Notes"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#developer-notes","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Validation: The Person constructor validates fields (e.g., Email format, Height range).")]),_v(" "),_c('li',[_v("Case Sensitivity: Allergies (al/) are case-insensitive (stored in lowercase).")])])}
+with(this){return _c('ul',[_c('li',[_v("Validation: The Person constructor validates fields (e.g., Email format, Height range).")]),_v(" "),_c('li',[_v("Duplicate person criteria: If the email entered already exists in VitaBook, the person will be considered a duplicate. This is because in our unique context, the nutritionist uses the email to primarily contact the patient and send sensitive documents.")]),_v(" "),_c('li',[_v("Case Sensitivity: Allergies (al/) are case-insensitive (stored in lowercase).")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("When a user issues a command such as "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/John d/vegan")]),_v("(simplified for this example, this command does not actually run in VitaBook), the following sequence of operations occurs:")])}
@@ -500,7 +500,7 @@ with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('spa
 with(this){return _c('h4',{attrs:{"id":"developer-notes-8"}},[_v("Developer Notes"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#developer-notes-8","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Immutable States: Each snapshot is a deep copy of AddressBook.")]),_v(" "),_c('li',[_v("Non-Modifying Commands: list, find, sort do not trigger commits.")]),_v(" "),_c('li',[_v("UI Sync: The UI refreshes automatically after undo/redo via Model observers.")])])}
+with(this){return _c('ul',[_c('li',[_v("Immutable States: Each snapshot is a deep copy of AddressBook.")]),_v(" "),_c('li',[_v("Non-Modifying Commands: list, find, sort, help do not trigger commits.")]),_v(" "),_c('li',[_v("UI Sync: The UI refreshes automatically after undo/redo via Model observers.")])])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#commit()")]),_v(" — Saves the current address book state in its history.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#undo()")]),_v(" — Restores the previous address book state from its history.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#redo()")]),_v(" — Restores a previously undone address book state from its history.")])])}
@@ -869,6 +869,6 @@ with(this){return _c('ol',[_c('li',[_c('strong',[_v("Combination Testing")]),_v(
 with(this){return _c('p',[_c('strong',[_v("Critical")]),_v(": Always back up "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data/patients.json")]),_v(" before testing destructive commands ("),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(").")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Fri, 4 Apr 2025, 9:52:23 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Fri, 4 Apr 2025, 10:06:34 GMT+8]")])])])}
 }];
   
