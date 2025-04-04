@@ -11,7 +11,7 @@ with(this){return _c('head',[_c('link',{attrs:{"rel":"preconnect","href":"https:
 with(this){return _c('h1',{attrs:{"id":"vitabook-developer-guide"}},[_v("VitaBook Developer Guide"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#vitabook-developer-guide","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("VitaBook")]),_v(" is a "),_c('strong',[_v("desktop application for freelance nutritionists")]),_v("\nto manage patient profiles, dietary information, and follow-ups efficiently.\nBuilt for speed and efficiency, VitaBook integrates a powerful "),_c('strong',[_v("Command Line Interface (CLI)")]),_v(" with a clean\n"),_c('strong',[_v("Graphical User Interface (GUI)")]),_v(", allowing you to quickly retrieve and update patient records while on the go.")])}
+with(this){return _c('p',[_c('strong',[_v("VitaBook")]),_v(" is a "),_c('strong',[_v("desktop application for freelance nutritionists")]),_v("\nto manage patient profiles, dietary information, and follow-ups efficiently.\nBuilt for speed and efficiency, VitaBook integrates a powerful "),_c('strong',[_v("Command Line Interface (CLI)")]),_v(" with a clean.\n"),_c('strong',[_v("Graphical User Interface (GUI)")]),_v(", allowing you to quickly retrieve and update patient records while on the go.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("Head over to "),_c('a',{attrs:{"href":"#how-to-use-this-developer-guide"}},[_v("How to use this Developer Guide")]),_v("\nto get started!")])}
@@ -146,7 +146,7 @@ with(this){return _c('ul',[_c('li',[_c('strong',[_c('a',{attrs:{"href":"#ui-comp
 with(this){return _c('p',[_v("In addition, the "),_c('a',{attrs:{"href":"#common-classes"}},[_v("Common Classes")]),_v(" section documents utility classes shared across multiple packages.")])}
 },function anonymous(
 ) {
-with(this){return _c('blockquote',[_c('p',[_c('strong',[_v("Note:")]),_v(" All diagrams in this section (e.g., architecture, class, sequence diagrams) are generated using PlantUML."),_c('br'),_v("\nThe corresponding "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v(".puml")]),_v(" source files are located in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("diagrams")]),_v(" folder of this project."),_c('br'),_v("\nYou can refer to the "),_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/plantUml.html"}},[_v("SE-EDU PlantUML Tutorial")]),_v(" if you wish to modify or create new diagrams for future enhancements.")])])}
+with(this){return _c('blockquote',[_c('p',[_c('strong',[_v("Note:")]),_v(" All diagrams in this section (e.g., architecture, class, sequence diagrams) are generated using PlantUML.\nThe corresponding "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v(".puml")]),_v(" source files are located in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("diagrams")]),_v(" folder of this project.\nYou can refer to the "),_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/plantUml.html"}},[_v("SE-EDU PlantUML Tutorial")]),_v(" if you wish to modify or create new diagrams for future enhancements.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"architecture"}},[_v("Architecture"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#architecture","onclick":"event.stopPropagation()"}})])}
@@ -503,7 +503,7 @@ with(this){return _c('h4',{attrs:{"id":"developer-notes-8"}},[_v("Developer Note
 with(this){return _c('ul',[_c('li',[_v("Immutable States: Each snapshot is a deep copy of AddressBook.")]),_v(" "),_c('li',[_v("Non-Modifying Commands: list, find, sort do not trigger commits.")]),_v(" "),_c('li',[_v("UI Sync: The UI refreshes automatically after undo/redo via Model observers.")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#commit()")]),_v(" — Saves the current address book state in its history.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#undo()")]),_v(" — Restores the previous address book state from its history.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#redo()")]),_v(" — Restores a previously undone address book state from its history.")]),_v(" "),_c('li')])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#commit()")]),_v(" — Saves the current address book state in its history.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#undo()")]),_v(" — Restores the previous address book state from its history.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("VersionedAddressBook#redo()")]),_v(" — Restores a previously undone address book state from its history.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("These operations are exposed in the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model")]),_v(" interface as "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#commitAddressBook()")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#undoAddressBook()")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Model#redoAddressBook()")]),_v(" respectively. Given below is an example usage scenario and how the undo/redo mechanism behaves at each step.")])}
@@ -869,6 +869,6 @@ with(this){return _c('ol',[_c('li',[_c('strong',[_v("Combination Testing")]),_v(
 with(this){return _c('p',[_c('strong',[_v("Critical")]),_v(": Always back up "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("data/patients.json")]),_v(" before testing destructive commands ("),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(").")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Thu, 3 Apr 2025, 22:21:19 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Fri, 4 Apr 2025, 8:56:23 GMT+8]")])])])}
 }];
   
