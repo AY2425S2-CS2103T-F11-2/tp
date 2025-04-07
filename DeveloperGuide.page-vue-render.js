@@ -899,6 +899,6 @@ with(this){return _c('h3',{attrs:{"id":"3-allow-specifying-multiple-restricted-d
 with(this){return _c('ol',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("d/low sodium d/low fat")]),_v(" → patient will be tagged with both \"low sodium\" and \"low fat\" dietary restrictions.")]),_v(" "),_c('li',[_v("Display multiple diets clearly in the patient's details view, similar to how allergies are listed.")]),_v(" "),_c('li',[_v("This improvement will better support patients with complex dietary needs involving multiple restrictions.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Mon, 7 Apr 2025, 23:07:47 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 7:32:56 GMT+8]")])])])}
 }];
   
