@@ -100,7 +100,11 @@
         "command-tests": "Command Tests",
         "undo-redo-testing": "Undo/Redo Testing",
         "general-edge-cases-2": "General Edge Cases",
-        "exploratory-testing-tips": "Exploratory Testing Tips"
+        "exploratory-testing-tips": "Exploratory Testing Tips",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements",
+        "1-allow-sorting-by-descending-order-for-name-diet-and-meeting-date": "1. Allow sorting by descending order for name, diet, and meeting date",
+        "2-support-multiple-field-filters-in-a-single-filter-command": "2. Support multiple field filters in a single filter command",
+        "3-allow-specifying-multiple-restricted-diets-for-a-patient": "3. Allow specifying multiple restricted diets for a patient"
       },
       "headingKeywords": {}
     },
