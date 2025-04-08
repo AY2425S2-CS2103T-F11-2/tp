@@ -317,13 +317,13 @@ with(this){return _c('p',[_c('strong',[_v("❓ Q: How is VitaBook different from
 with(this){return _c('p',[_c('strong',[_v("❓ Q: Do I need to install anything special to use VitaBook?")]),_c('br'),_v(" "),_c('strong',[_v("💬 A:")]),_v(" Just Java 17 — nothing fancy! Once you have that, you can launch VitaBook with a simple command and start managing your patients right away.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("❓ Q: What kind of info can I store about a patient?")]),_c('br'),_v(" "),_c('strong',[_v("💬 A:")]),_v(" Everything you need: name, phone, email, address, gender, height, weight, diet, allergies, meeting date, priority level, and remarks. It’s like a one-stop record for every patient.")])}
+with(this){return _c('p',[_c('strong',[_v("❓ Q: What kind of info can I store about a patient?")]),_c('br'),_v(" "),_c('strong',[_v("💬 A:")]),_v(" Everything you need: name, phone number, email, address, gender, height, weight, diet, allergies, meeting date, priority level, and remarks. It’s like a one-stop record for every patient.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("❓ Q: What happens if I delete a patient by accident?")]),_c('br'),_v(" "),_c('strong',[_v("💬 A:")]),_v(" No worries — just use the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("undo")]),_v(" command to bring them back. VitaBook remembers your recent changes so you don’t have to stress.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("❓ Q: Can I undo other actions too?")]),_c('br'),_v(" "),_c('strong',[_v("💬 A:")]),_v(" Yes! Whether it’s a delete, edit, or clear, the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("undo")]),_v(" command has your back. You can even redo something if you changed your mind.")])}
+with(this){return _c('p',[_c('strong',[_v("❓ Q: Can I undo other actions too?")]),_c('br'),_v(" "),_c('strong',[_v("💬 A:")]),_v(" You can only "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("undo")]),_v(" actions that may modify data in the patient list  (i.e. "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("priority")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("redo")]),_v(").")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("❓ Q: Can I add custom info for patients?")]),_c('br'),_v(" "),_c('strong',[_v("💬 A:")]),_v(" While you can't add new fields, the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("remark")]),_v(" field is super flexible — use it to write anything extra you want to remember, like “prefers gluten-free snacks” or “has follow-up next month.”\n"),_c('br')])}
@@ -374,7 +374,7 @@ with(this){return _c('h3',{attrs:{"id":"patient-information-terms"}},[_v("Patien
 with(this){return _c('p',[_c('strong',[_v("Priority")]),_c('br'),_v("\nYour way of deciding "),_c('strong',[_v("how urgent a patient's needs are")]),_v(". Higher priority = more attention needed.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Diet")]),_c('br'),_v("\nThe "),_c('strong',[_v("nutrition plan")]),_v(" you've prescribed for a patient — like “low sodium”, “high protein”, or “vegetarian”.")])}
+with(this){return _c('p',[_c('strong',[_v("Diet")]),_c('br'),_v("\nThe "),_c('strong',[_v("nutrition plan")]),_v(" you've prescribed for a patient — like “low sodium”, “low fat”, \"low carb\" or “low sugar”.")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Allergy")]),_c('br'),_v("\nAny food or substance the patient should avoid — this helps you keep their plan safe and accurate.")])}
@@ -419,6 +419,6 @@ with(this){return _c('p',[_c('a',{attrs:{"href":"https://se-education.org/guides
 with(this){return _c('p',[_c('a',{attrs:{"href":"#vitabook-user-guide"}},[_v("↑ Back to Top")]),_c('br'),_v(" "),_c('a',{attrs:{"href":"#table-of-contents"}},[_v("↑ Back to Table of Contents")]),_c('br')])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 8:02:16 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.6.0")]),_v(", generated on Tue, 8 Apr 2025, 10:41:09 GMT+8]")])])])}
 }];
   
