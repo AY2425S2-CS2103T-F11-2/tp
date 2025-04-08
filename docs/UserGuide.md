@@ -205,7 +205,7 @@ Format: `add n/NAME g/GENDER h/HEIGHT w/WEIGHT no/PHONE e/EMAIL a/ADDRESS d/DIET
 
 8. Diet must be one of the following: `regular`, `low sodium`, `low fat`, `low carb`, `low sugar` (case-insensitive).
    * Only one diet can be assigned per person for simplicity. Additional specialisations can be added in remarks.
-
+    <br>
 9. Meeting date must be in the format `YYYY-MM-DD`.
 
 10. Phone number must be a positive integer of **exactly** 8 digits and starts with 6, 8 or 9.
@@ -254,17 +254,6 @@ Format: `edit INDEX [n/NAME] [g/GENDER] [h/HEIGHT] [w/WEIGHT] [no/PHONE] [e/EMAI
 4. You can remove all the patient’s allergies by typing `al/` without specifying any allergies after it.
 
 5. The fields used in the `edit` command follow the same constraints as specified in the `add` command.
-
-6. Email address has the following standards:
-    * The local part (before @) can include letters, numbers, and limited special characters (+, _, ., -), but must not start or end with a special character, and cannot have consecutive periods (..).
-    * The domain (after @) must consist of domain labels separated by periods, where each label starts and ends with a letter or number, and hyphens are allowed inside labels.
-    * The top-level domain (TLD) must be one of the following recognized domains: .com, .org, .net, .edu, .gov, .io, .co, .sg, .my, .info, .biz, .us, .uk, or .ca.
-
-    <br>
-7. If you need to enter a / inside a patient's name or other fields (e.g., Charlie A/P),
-    make sure that any part before or after the / is capitalised (e.g., A/P) to avoid confusion with command field prefixes like a/ for address.
-   <br> e.g. Charlie A/P instead of Charlie a/p (might be treated as address input) 
-
 </box>
 
 Examples:

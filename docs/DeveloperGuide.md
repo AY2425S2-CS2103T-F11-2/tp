@@ -1142,12 +1142,12 @@ Given below are instructions to test the app manually.
 | `filter g/Male` | - | Error: `"Gender must be 'm' or 'f'"` |
 
 #### **Sort Command**
-| Test Case | Prerequisite | Expected Outcome |
-|-----------|--------------|------------------|
-| `sort name` | Multiple patients | Sorts alphabetically by name |
-| `sort priority` | Multiple patients | Sorts by priority (high→low) then name |
-| `sort meetingdate` | Multiple patients | Sorts by by date from earliest to latest then name |
-| `sort invalid` | - | Error: `"Invalid sort type. Use: priority/name/diet"` |
+| Test Case | Prerequisite | Expected Outcome                                                  |
+|-----------|--------------|-------------------------------------------------------------------|
+| `sort name` | Multiple patients | Sorts alphabetically by name                                      |
+| `sort priority` | Multiple patients | Sorts by priority (high→low) then name                            |
+| `sort meetingdate` | Multiple patients | Sorts by by date from earliest to latest then name                |
+| `sort invalid` | - | Error: `"Invalid sort type. Use: sort priority / sort name / sort diet / sort meetingdate"` |
 
 #### **Delete Command**
 | Test Case | Prerequisite | Expected Outcome |
@@ -1186,7 +1186,7 @@ Given below are instructions to test the app manually.
 2. **Data Limits**:
     - Test with 1000+ patients for performance.
 3. **Localization**:
-    - Non-English names (e.g., `add n/李华`), note that they are not supported.
+    - Non-English names (e.g., `add n/李华`) are not supported.
 
 **Critical**: Always back up `data/vitabook.json` before testing destructive commands (`clear`, `delete`).
 
